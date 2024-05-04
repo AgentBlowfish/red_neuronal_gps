@@ -26,9 +26,9 @@ def circulo(num_datos=100, R=1, minimo=0, maximo=1, latitud=0, longitud=0):
 
 N = 250
 
-datos_brasilia = circulo(num_datos=N, R=1.5, latitud=-15.7801, longitud=-47.9292)
-datos_kazajistan = circulo(num_datos=N, R=1, latitud=48.0196, longitud=66.9237)
-X = np.concatenate([datos_brasilia, datos_kazajistan])
+datos_tepito = circulo(num_datos=N, R=1.5, latitud=19.4291, longitud=-99.1326)
+datos_malasia = circulo(num_datos=N, R=1, latitud=3.141, longitud=101.6932)
+X = np.concatenate([datos_tepito, datos_malasia])
 X = np.round(X, 3)
 print ('X : ', X)
 
